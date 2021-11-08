@@ -1,4 +1,4 @@
-# Realtime-chat-app-using-nodejs
+# Bravo68web's IRC
 ![Socket.io](https://img.shields.io/badge/Socket.io-v3.0.1-green.svg)
 ![Javascript](https://img.shields.io/badge/NodeJs-v12.15.0-yellow.svg)
 ![Javascript](https://img.shields.io/badge/ReactJs-v17.0.1-orange.svg)
