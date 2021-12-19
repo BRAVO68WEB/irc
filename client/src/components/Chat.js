@@ -18,12 +18,12 @@ const Chat = ({ location }) => {
     const [messages, setMessages] = useState([]);
     const [users, setUsers] = useState('');
     const history = useHistory();
-    let socketUrl = "http://localhost:5000/";
+    let socketUrl = "https://irc.b68dev.xyz";
 
     if (process.env.NODE_ENV === "production") {
       socketUrl = "https://irc.b68dev.xyz";
     } else if (process.env.NODE_ENV != "production") {
-      socketUrl = "http://localhost:5000/";
+      socketUrl = "https://irc.b68dev.xyz";
     }
 
     useEffect(() => {
